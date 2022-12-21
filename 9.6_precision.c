@@ -13,6 +13,7 @@ int main(){
     printf("\t%.3f\n\t%.3e\n\t%.3g\n\n", f, f, f);
     printf("Usando precision para cadenas\n");
     printf("\t%.11s\n", s);
+    printf("%*.*f", 7, 2, 98.736);
 
     return 0;
 }
